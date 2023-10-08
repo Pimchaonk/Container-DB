@@ -6,7 +6,7 @@
     "containerDefinitions": [
         {
             "name": "ecs-doggy-sandbox",
-            "image": "184121542536.dkr.ecr.ap-southeast-1.amazonaws.com/po:lastest",
+            "image": "184121542536.dkr.ecr.ap-southeast-1.amazonaws.com/web_pos:lastest",
             
             "resourceRequirements": null,
             "essential": true,
@@ -24,7 +24,7 @@
     "memory": "512",
     "cpu": "256",
     "executionRoleArn": "arn:aws:iam::184121542536:role/ecsTaskExecutionRole",
-    "family": "ecs-doggy-CI-CD-task-definition",
+    "family": "web-task-definition",
     "taskRoleArn": "",
     "placementConstraints": []
 }
