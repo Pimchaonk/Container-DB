@@ -15,5 +15,3 @@ EXPOSE 80
 
 # Start Apache server with PHP to serve your application
 CMD ["apache2-foreground"]
-
-

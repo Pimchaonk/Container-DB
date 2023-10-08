@@ -5,7 +5,7 @@
     "inferenceAccelerators": [],
     "containerDefinitions": [
         {
-            "name": "ecs-doggy-sandbox",
+            "name": "web-container",
             "image": "184121542536.dkr.ecr.ap-southeast-1.amazonaws.com/web_pos:lastest",
             
             "resourceRequirements": null,
