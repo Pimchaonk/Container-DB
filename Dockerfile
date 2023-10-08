@@ -16,7 +16,4 @@ EXPOSE 80
 # Start Apache server with PHP to serve your application
 CMD ["apache2-foreground"]
 
-FROM php:latest
 
-# Install PDO MySQL extension
-RUN docker-php-ext-install pdo pdo_mysql
