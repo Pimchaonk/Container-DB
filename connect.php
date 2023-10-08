@@ -5,8 +5,8 @@
    }*/
 
 
-$servername = "container-db.copiab6gphpr.ap-southeast-1.rds.amazonaws.com";
-$username = "Bhodi";
+$servername = "web-container.copiab6gphpr.ap-southeast-1.rds.amazonaws.com";
+$username = "bhodi";
 $password = "Treebangbang*007";
 $dbname = "pos_system";
 
