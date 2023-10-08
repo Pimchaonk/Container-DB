@@ -28,7 +28,7 @@ if (isset($_SESSION["user"])) {
   </head>
 
   <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-dark bg-primary">
       <div class="container-fluid">
         <span class="navbar-brand mb-0 mx-auto h1">Point of Sale | v1.0</span>
       </div>
