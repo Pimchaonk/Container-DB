@@ -11,7 +11,7 @@ COPY . .
 WORKDIR /var/www/html
 
 # Create an .htaccess file to set DirectoryIndex
-RUN echo "DirectoryIndex time.html" > /var/www/html/.htaccess
+RUN echo "DirectoryIndex authentication/login.php" > /var/www/html/.htaccess
 
 # Expose the port 80 to allow HTTP traffic
 EXPOSE 80
