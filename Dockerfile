@@ -10,8 +10,6 @@ COPY . .
 # Set working directory inside the container
 WORKDIR /var/www/html
 
-# Create an .htaccess file to set DirectoryIndex
-RUN echo "DirectoryIndex authentication/login.php" > /var/www/html/.htaccess
 
 # Expose the port 80 to allow HTTP traffic
 EXPOSE 80
